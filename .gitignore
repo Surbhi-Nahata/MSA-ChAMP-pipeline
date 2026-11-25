@@ -1,0 +1,25 @@
+# Public GEO IDATs and downloaded archives
+data/raw/
+*.idat
+*.idat.gz
+*.idat.bgz
+GSE*_RAW.tar
+*.tar
+*.tar.gz
+*.zip
+
+# Cohort metadata and analysis outputs
+metadata/sample_sheet.csv
+data/intermediate/
+results/
+
+# Notebook and R session artifacts
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Temporary files
+*.log
+*.tmp
